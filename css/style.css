@@ -1,3 +1,4 @@
+/* Globel Selector */
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,10 @@
 
 
 }
+
+/* Globel Selector-------------------------X------------- */
+
+/* Google Fonts */
 
 @font-face {
     font-family: alatsi;
@@ -18,9 +23,13 @@
     src: url(/fonts/Lobster/Lobster-Regular.ttf);
 }
 
+/* Google Fonts----------------------x------------ */
+/* Globel ELEMENTS */
 h4 {
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-bottom: 1%;
+
 }
 
 ul,
@@ -33,6 +42,18 @@ a {
     color: white;
 }
 
+span {
+    background-color: orangered;
+    color: white;
+    letter-spacing: 4px;
+    padding-left: 1%;
+    border-radius: 12px;
+    padding-right: 1%;
+
+}
+
+/* Globel ELEMENTS------------------------------X----------- */
+/* Navigation Properties */
 nav .nav-ul {
     display: flex;
     justify-content: center;
@@ -57,17 +78,8 @@ nav .nav-ul li a {
     padding-right: 20%;
 }
 
-span {
-    background-color: orangered;
-    color: white;
-    letter-spacing: 4px;
-    padding-left: 1%;
-    border-radius: 12px;
-    padding-right: 1%;
-
-}
-
-
+/* Navigation Properties---------------------------X--------- */
+/* Header Elements */
 header {
     position: relative;
     text-align: center;
@@ -85,9 +97,6 @@ header>* {
     height: 50%;
     width: 100%;
     background: rgba(0, 0, 0, .6);
-}
-.main{
-	display:flex;
 }
 
 .banner h4 {
@@ -120,6 +129,8 @@ header>* {
     background-color: #5089eb;
 }
 
+/* Header Elements-----------------------X----------- */
+/* Main Elements*/
 main h4 {
     text-align: left;
 }
@@ -145,20 +156,24 @@ main p img {
     margin-left: 12%;
 }
 
-h4 {
-    text-align: center;
-    padding-bottom: 1%;
-}
-
+/* Main Elements-----------------------X-----------*/
+/* Offer Section Element */
 section {
     margin-left: 2%;
     display: flex;
     justify-content: space-around;
 }
 
+section div img {
+    padding-left: 0;
+    padding-right: 4%;
+    height: 40%;
+    width: 100%;
+}
 
+/* Offer Section Element-----------------------X---- */
 
-
+/* Work Section Element */
 .work div p {
     text-align: left;
     width: 100%;
@@ -170,12 +185,18 @@ section {
     height: 200px;
 }
 
-
-section div img {
-    padding-left: 0;
-    padding-right: 4%;
-    height: 40%;
+/* Work Section Element-------------------------X--------- */
+/* fORMS elements */
+input[type=text],
+select,
+textarea {
     width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    border-radius: 40px;
 }
 .about{
 background-color:#2196f3;
@@ -198,77 +219,41 @@ margin-top: 5%;
 
 
 
-/* efffff */
-
-
-/* Style inputs */
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-  border-radius:40px;
-}
-
 input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-  border-radius:40px;
-
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
-  border-radius:40px;
-
+    background-color: #45a049;
 }
 
-/* Style the container/contact section */
 .container {
-  border-radius: 5px;
-  background-color: #bbdefb;
-  padding: 10px;
-  margin-top: 5%;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 5%;
 }
 
 /* Create two columns that float next to eachother */
+
 .column {
-  float: left;
-  width: 50%;
-  margin-top: 6px;
-  padding: 20px;
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
 }
+
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
-label {
-    text-align: left;
-}
-
-.fbtn {
-    background-color: transparent;
-    border: 1.5px dashed black;
-    padding: 5%;
-    width: 100%;
-    border-radius: 10px;
-
-}
-
-.fbtn:hover {
-    background-color: #5089eb;
-    border: none;
-    color: white;
-
-}
-
-/* efffff */
+/* fORMS elements-------------X------ */
