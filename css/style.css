@@ -100,11 +100,12 @@ header>* {
 }
 
 .banner h4 {
-    color: white;
+    color: #42a5f5;
     letter-spacing: 4px;
     word-spacing: 2%;
     font-size: 30px;
     font-family: "alatsi";
+
 }
 
 .banner p {
@@ -197,6 +198,25 @@ textarea {
     resize: vertical;
     border-radius: 40px;
 }
+.about{
+background-color:#2196f3;
+border-radius: 5px;
+padding: 10px;
+margin-top: 5%;
+}
+
+.about h4{
+  color: white;
+    letter-spacing: 4px;
+    word-spacing: 2%;
+    font-size: 30px;
+    font-family: "alatsi";
+}
+.about img{
+  width:200px; height: 200px;margin: 4%;
+
+}
+
 
 
 input[type=submit] {
