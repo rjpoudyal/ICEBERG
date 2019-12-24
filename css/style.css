@@ -86,6 +86,9 @@ header>* {
     width: 100%;
     background: rgba(0, 0, 0, .6);
 }
+.main{
+	display:flex;
+}
 
 .banner h4 {
     color: white;
@@ -175,9 +178,8 @@ section div img {
 }
 
 
-* {
-  box-sizing: border-box;
-}
+/* efffff */
+
 
 /* Style inputs */
 input[type=text], select, textarea {
@@ -187,6 +189,7 @@ input[type=text], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  border-radius:40px;
 }
 
 input[type=submit] {
@@ -195,17 +198,22 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  border-radius:40px;
+
 }
 
 input[type=submit]:hover {
   background-color: #45a049;
+  border-radius:40px;
+
 }
 
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #bbdefb;
   padding: 10px;
+  margin-top: 5%;
 }
 
 /* Create two columns that float next to eachother */
@@ -226,7 +234,6 @@ input[type=submit]:hover {
 label {
     text-align: left;
 }
-
 
 .fbtn {
     background-color: transparent;
