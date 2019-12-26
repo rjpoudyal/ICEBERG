@@ -32,6 +32,12 @@ h4 {
 
 }
 
+h5 {
+    color: white;
+    font-size: 20px;
+}
+
+
 ul,
 li {
     list-style: none;
@@ -39,7 +45,7 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
+
 }
 
 span {
@@ -76,6 +82,7 @@ nav .nav-ul li a:hover {
 nav .nav-ul li a {
     padding-left: 20%;
     padding-right: 20%;
+    color: white;
 }
 
 /* Navigation Properties---------------------------X--------- */
@@ -174,7 +181,7 @@ section div img {
 
 /* Offer Section Element-----------------------X---- */
 
-/* Work Section Element */
+
 .column p {
     text-align: left;
     width: 100%;
@@ -186,7 +193,7 @@ section div img {
     height: 200px;
 }
 
-/* Work Section Element-------------------------X--------- */
+
 /* About Section */
 
 
@@ -208,6 +215,13 @@ section div img {
     height: 200px;
     margin: 4%;
 
+}
+
+.about .row {
+    display: flex;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    justify-content: space-evenly;
 }
 
 /* About section ---------------X----------- */
@@ -241,9 +255,10 @@ input[type=submit]:hover {
 
 .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #88EAEB;
     padding: 10px;
-    margin-top: 5%;
+    height: 100vh;
+
 }
 
 /* Create two columns that float next to eachother */
@@ -260,7 +275,8 @@ input[type=submit]:hover {
 .row:after {
     content: "";
     display: table;
-    clear: both;
+    clear: left;
 }
+
 
 /* fORMS elements-------------X------ */
